@@ -1,8 +1,9 @@
 // main.dart
 import 'package:flutter/material.dart';
 import 'pages/profile_screen.dart';
-import 'pages/profile_extended_screen.dart';
-import 'pages/enhanced_profile_page.dart';
+import 'pages/clubprofilepage.dart';
+// import 'pages/profile_extended_screen.dart';
+// import 'pages/enhanced_profile_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.purple,
         fontFamily: 'Roboto',
       ),
-      home: const EnhancedProfilePage(),
+      home: const ClubProfilePage(),
       debugShowCheckedModeBanner: false,
     );
   }
